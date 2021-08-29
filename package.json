@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.4",
-    "firebase": "^9.0.0",
+    "firebase": "8.10.0",
     "graphql": "^15.5.1",
     "graphql-request": "^3.5.0",
     "next": "11.1.0",
