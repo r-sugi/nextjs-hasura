@@ -8,8 +8,23 @@
     "start": "next start"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.4",
+    "firebase": "^9.0.0",
+    "graphql": "^15.5.1",
+    "graphql-request": "^3.5.0",
     "next": "11.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-query": "^3.21.0",
+    "react-query-devtools": "^2.6.3",
+    "universal-cookie": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.5",
+    "@types/react": "^17.0.19",
+    "autoprefixer": "^10.3.3",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.8",
+    "typescript": "^4.4.2"
   }
 }
