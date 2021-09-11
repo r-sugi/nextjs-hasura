@@ -105,7 +105,7 @@ export const useAppMutate = () => {
           queryClient.setQueryData<News[]>(
             'news',
             previousTodos.map((news) =>
-              news.id === variables.id ? res.update_newss_by_pk : news
+              news.id === variables.id ? res.update_news_by_pk : news
             )
           )
         }
