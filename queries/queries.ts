@@ -2,9 +2,11 @@ import { gql } from 'graphql-request'
 
 export const GET_NEWS = gql`
   query GetNews {
-    id
-    created_at
-    content
+    news {
+      id
+      created_at
+      content
+    }
   }
 `
 export const CREATE_NEWS = gql`

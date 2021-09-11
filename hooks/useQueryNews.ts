@@ -6,7 +6,6 @@ import { GET_NEWS } from '../queries/queries'
 interface NewsRes {
   news: News[]
 }
-
 export const fetchNews = async () => {
   const { news: data } = await request<NewsRes>(
     process.env.NEXT_PUBLIC_HASURA_ENDPOINT,
@@ -14,11 +13,10 @@ export const fetchNews = async () => {
   )
   return data
 }
-
 export const useQueryNews = () => {
   return useQuery<News[], Error>({
     queryKey: 'news',
     queryFn: fetchNews,
-    staleTime: Infinity
+    staleTime: Infinity,
   })
 }
