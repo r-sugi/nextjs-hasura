@@ -34,6 +34,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## .env
+
 ```
 touch .env.local
 // FIREBASE
@@ -47,3 +48,7 @@ NEXT_PUBLIC_FIREBASE_APPID=""
 // HASURA
 NEXT_PUBLIC_HASURA_ENDPOINT=""
 ```
+
+## firebase project
+
+nextjs-hasura-lesson-auth
