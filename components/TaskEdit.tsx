@@ -15,6 +15,9 @@ const TaskEdit: VFC = () => {
       updateTaskMutation.mutate(editedTask)
     }
   }
+  if (createTaskMutation.error || updateTaskMutation.error) {
+    return <p>{'Error'}</p>
+  }
   return (
     <div>
       <form onSubmit={submitHandler}>
